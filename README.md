@@ -1,4 +1,4 @@
-# PayFlow
+# FinPay
 
 A transaction-processing **microservices** system: three independent Spring Boot services that move money between accounts, communicating over **synchronous REST** for the funds check and **asynchronous Kafka** for the audit ledger, with an **AI layer** that categorizes each transaction. The whole stack runs with one `docker compose` command.
 
